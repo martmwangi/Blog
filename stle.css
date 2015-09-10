@@ -1,0 +1,57 @@
+nav{
+color:white;
+padding-top: 60px;
+align-items: center;
+}
+
+nav ul li    {
+list-style: none;
+display: inline;
+padding: 15px;
+font-size: 25px;
+border: 1px solid blue;
+float: center;
+background-color: black;
+}
+
+body   {
+background-image: url(splash.jpg);
+   }
+#profile{
+display: inline-block;
+    
+}
+article{
+display: inline-block
+
+}
+.post-name {
+  font-size: 24pt;
+  color: burlywood
+}
+
+/* Make post authors blue. */
+.post-author {
+  color: blue;
+}
+
+/* Make post content green. */
+.post-content {
+  color: green;
+}
+
+/* The below CSS gets applied on devices with small screens. */
+@media (max-width: 980px) {
+ 
+  /* Reduce the margin. */
+  body {
+    margin: 0px ;
+      background-image: url(splash.jpg);
+  }
+ 
+  /* Make the post content larger. */
+  .post-content {
+    font-size: 18pt ;
+  }
+
+}
